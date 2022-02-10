@@ -1,0 +1,14 @@
+stdname=(input("enter std name"))
+stdno=int(input("enter std no."))
+stdgroup=(input("enter std group"))
+a=int(input("enter datascience marks"))
+b=int(input("enter statistics marks"))
+c=int(input("enter computerscience  marks"))
+d=int(input("enter telugu marks"))
+e=int(input("enter english marks"))
+f=int(input("enter analytical skills"))
+if a>=40 and b>=40 and c>=40 and d>=40 and e>=40 and f>=40:
+    print("pass")
+else:
+    print("fail")
+          
